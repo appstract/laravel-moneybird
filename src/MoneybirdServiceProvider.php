@@ -1,6 +1,6 @@
 <?php
 
-namespace Appstract\Skeleton;
+namespace Appstract\Moneybird;
 
 use Illuminate\Support\ServiceProvider;
 use Picqer\Financials\Moneybird\Moneybird;
