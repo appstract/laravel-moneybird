@@ -27,7 +27,7 @@ class SkeletonServiceProvider extends ServiceProvider
     {
         $this->mergeConfigFrom(__DIR__.'/../config/moneybird.php', 'moneybird');
 
-        $this->app->bind('moneybird', function ($app) {å
+        $this->app->bind('moneybird', function ($app) {
             $connection = new Connection();
 
             $connection->setRedirectUrl(config('moneybird.redirect_uri'));
