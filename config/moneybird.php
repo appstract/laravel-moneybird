@@ -12,6 +12,6 @@ return [
 
     'access_token' => '',
 
-    'administration_id' => ''
+    'administration_id' => '',
 
 ];
