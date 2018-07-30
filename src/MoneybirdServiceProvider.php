@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Picqer\Financials\Moneybird\Moneybird;
 use Picqer\Financials\Moneybird\Connection;
 
-class SkeletonServiceProvider extends ServiceProvider
+class MoneybirdServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
