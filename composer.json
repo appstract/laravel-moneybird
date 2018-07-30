@@ -1,0 +1,51 @@
+{
+    "name": "appstract/laravel-moneybird",
+    "description": "Laravel packe for Moneybird",
+    "keywords": [
+        "appstract",
+        "laravel-moneybird"
+    ],
+    "homepage": "https://github.com/appstract/laravel-moneybird",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Gijs Jorissen",
+            "email": "hello@appstract.team",
+            "homepage": "https://appstract.team",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.0",
+        "picqer/moneybird-php-client": "0.*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Appstract\\Moneybird\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Appstract\\Moneybird\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Appstract\\Moneybird\\MoneybirdServiceProvider"
+            ],
+            "aliases": {
+                "Alias": "Appstract\\Moneybird\\MoneybirdFacade"
+            }
+        }
+    }
+}
