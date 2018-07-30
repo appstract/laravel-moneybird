@@ -6,7 +6,7 @@ use Illuminate\Support\ServiceProvider;
 use Picqer\Financials\Moneybird\Moneybird;
 use Picqer\Financials\Moneybird\Connection;
 
-class SkeletonServiceProvider extends ServiceProvider
+class MoneybirdServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -34,15 +34,15 @@ class SkeletonServiceProvider extends ServiceProvider
             $connection->setClientId(config('moneybird.client_id'));
             $connection->setClientSecret(config('moneybird.client_secret'));
 
-            if(config('moneybird.authorization_token')) {
+            if (config('moneybird.authorization_token')) {
                 $connection->setAuthorizationCode(config('moneybird.authorization_token'));
             }
 
-            if(config('moneybird.access_token')) {
+            if (config('moneybird.access_token')) {
                 $connection->setAccessToken(config('moneybird.access_token'));
             }
 
-            if(config('moneybird.administration_id')) {
+            if (config('moneybird.administration_id')) {
                 $connection->setAdministrationId(config('moneybird.administration_id'));
             }
 
@@ -53,10 +53,11 @@ class SkeletonServiceProvider extends ServiceProvider
     }
 
     /**
-     * [provides description]
+     * [provides description].
      * @return [type] [description]
      */
-    public function provides() {
+    public function provides()
+    {
         return ['moneybird'];
     }
 }
