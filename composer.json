@@ -44,7 +44,7 @@
                 "Appstract\\Moneybird\\MoneybirdServiceProvider"
             ],
             "aliases": {
-                "Alias": "Appstract\\Moneybird\\MoneybirdFacade"
+                "Moneybird": "Appstract\\Moneybird\\MoneybirdFacade"
             }
         }
     }
