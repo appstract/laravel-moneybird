@@ -1,11 +1,9 @@
-# Package Name
+# Laravel Moneybird
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/appstract/laravel-moneybird.svg?style=flat-square)](https://packagist.org/packages/appstract/laravel-moneybird)
 [![Total Downloads](https://img.shields.io/packagist/dt/appstract/laravel-moneybird.svg?style=flat-square)](https://packagist.org/packages/appstract/laravel-moneybird)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 [![Build Status](https://img.shields.io/travis/appstract/laravel-moneybird/master.svg?style=flat-square)](https://travis-ci.org/appstract/laravel-moneybird)
-
-This is where your description should go. Try and limit it to a paragraph or two, and maybe throw in a mention of what PSRs you support to avoid any confusion with users and contributors. Create a link to a medium article.
 
 ## Installation
 
@@ -33,7 +31,7 @@ composer test
 
 ## Contributing
 
-Contributions are welcome, [thanks to y'all](https://github.com/appstract/laravel-blade-directives/graphs/contributors) :)
+Contributions are welcome, [thanks to y'all](https://github.com/appstract/laravel-moneybird/graphs/contributors) :)
 
 ## About Appstract
 
