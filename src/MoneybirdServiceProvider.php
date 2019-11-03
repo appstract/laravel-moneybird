@@ -3,8 +3,8 @@
 namespace Appstract\Moneybird;
 
 use Illuminate\Support\ServiceProvider;
-use Picqer\Financials\Moneybird\Moneybird;
 use Picqer\Financials\Moneybird\Connection;
+use Picqer\Financials\Moneybird\Moneybird;
 
 class MoneybirdServiceProvider extends ServiceProvider
 {
