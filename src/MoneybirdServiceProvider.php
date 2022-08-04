@@ -54,6 +54,7 @@ class MoneybirdServiceProvider extends ServiceProvider
 
     /**
      * [provides description].
+     *
      * @return [type] [description]
      */
     public function provides()
