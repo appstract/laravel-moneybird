@@ -34,8 +34,8 @@ class MoneybirdServiceProvider extends ServiceProvider
             $connection->setClientId(config('moneybird.client_id'));
             $connection->setClientSecret(config('moneybird.client_secret'));
 
-            if (config('moneybird.authorization_token')) {
-                $connection->setAuthorizationCode(config('moneybird.authorization_token'));
+            if (config('moneybird.authorization_code')) {
+                $connection->setAuthorizationCode(config('moneybird.authorization_code'));
             }
 
             if (config('moneybird.access_token')) {
